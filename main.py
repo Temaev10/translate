@@ -7,7 +7,7 @@ while True:
     print('3 - удалить слово')
     print('4 - выйти')
 
-    a = input("введите цифру: ")
+    a = int(input("введите цифру: "))
 
     if a == 1:
         translate(words)
@@ -27,4 +27,4 @@ while True:
 
 
 
-git clone 
+# git clone 
